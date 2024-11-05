@@ -3,7 +3,7 @@ import "./style.css";
 import { RiIndentDecrease } from "@remixicon/react";
 import { useState } from "react";
 import { RiCloseLine} from "@remixicon/react";
- 
+// this is <header></header>
 
 function Navbar() {
   const [isNavActive, setIsNavActive] = useState(false);
