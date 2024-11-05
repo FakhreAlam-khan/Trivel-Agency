@@ -1,0 +1,177 @@
+.last-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sec-left {
+
+    width: 207px;
+    height: 133px;
+
+}
+
+.sec-mid {
+    width: 474px;
+    height: 153px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-left {
+    width: 214px;
+    height: 147px;
+    top: 4441px;
+    left: 1032px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.sec-left h1 {
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 66px;
+    text-align: left;
+
+}
+
+.sec-left h2 {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.19px;
+    text-align: left;
+    color: #5E6282;
+
+
+}
+
+.sec-mid-1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+
+}
+
+.sec-mid-1 h3 {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 700;
+    color: #080809;
+
+
+}
+
+.sec-mid-1 a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5E6282;
+
+
+}
+
+.sec-mid-1 a:hover {
+    color: #080809;
+    transform: translate(1px);
+}
+
+.right-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.sec-right h2 {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.19px;
+    text-align: left;
+    color: #5E6282;
+
+
+}
+.right-btm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.copyright {
+    width: 100%;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright h4 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #5E6282;
+
+}
+
+@media (max-width:1100px) {
+    .footer{
+        width: 100%;
+    }
+
+    .last-sec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: repeat(2 ,1fr); */
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+
+    .sec-left {
+        grid-column: 1;
+        position: relative;
+        left: 0em;
+        top: -10em;
+     
+
+
+    }
+
+    .sec-mid {
+        grid-column: 2;
+        position: relative;
+        top: -10em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sec-right {
+        position: relative;
+        top: -10em;
+        left: 1em;
+     
+       
+        width: 100%;
+        height: auto;
+        gap: 0px;
+        opacity: 0px;
+ 
+
+    }
+    .copyright {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -4em;
+    }
+
+}

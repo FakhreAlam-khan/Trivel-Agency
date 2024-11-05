@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+
+    /* padding: 0 80px; */
+
+
+}
+
+.hero-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 70px ;
+
+
+}
+
+.contant {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: flex-start;
+    width: 630px;
+    height: 535px;
+    top: 150px;
+    left: 148px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.con-1 {
+    width: 410px;
+    height: 30px;
+    top: 217px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #DF6951;
+
+}
+
+.con-2 {
+    width: 545px;
+    height: 267px;
+    top: 271px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Volkhov;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #181E4B;
+}
+
+.img4 {
+    position: absolute;
+    width: 380px;
+    height: 12px;
+    top: 280px;
+    left: 300px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: -1;
+
+}
+
+.con-3 {
+    width: 400px;
+    height: 90px;
+    top: 568px;
+    left: 148px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #5E6282;
+
+}
+
+.con-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.btn-1 {
+    font-family: Google Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.9px;
+    text-align: center;
+    width: 170px;
+    height: 60px;
+    top: 692px;
+    left: 148px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #F1A501;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-1:hover {
+    transform: scale(1.02);
+}
+
+.btn-2 {
+    position: relative;
+    background-color: #ffffff;
+    width: 200px;
+    height: 52px;
+    top: -2px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    overflow: visible;
+    border: none;
+}
+
+.btn-2:hover {
+    font-size: 18px;
+    color: #181E4B;
+    text-decoration: underline;
+}
+
+.img3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -12px;
+    left: -25px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.img2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 17px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.bac-img {
+    position: relative;
+    width: 750.87px;
+    height: 650px;
+    top: -5em;
+    right: 13em;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+.img1 {
+    position: absolute;
+    width: 38em;
+    height: 39em;
+    top: 11%;
+    right: 0;
+    gap: 0px;
+    opacity: 0px;
+    background-repeat: no-repeat;
+
+
+}
+
+.decor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+@media (max-width:1100px) {
+  
+    .Hero {
+        width: 100%;
+        height: auto;
+        padding: 0 ;
+
+    }
+
+    .hero-1 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+    
+
+    }
+
+    .decor {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        max-width: 25em;
+
+
+    }
+
+    .con-2 {
+        width: 300px;
+        height: 267px;
+        top: 271px;
+        left: 150px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Volkhov;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #181E4B;
+    }
+
+    .img4 {
+        position: absolute;
+        width: 200px;
+        height: 12px;
+        top: 230px;
+        left: 230px;
+        gap: 0px;
+        opacity: 0px;
+        z-index: -1;
+
+    }
+
+    .img1 {
+        position: absolute;
+        width: 29em;
+        height: 30em;
+        top: 18%;
+        right: -16em;
+        gap: 0px;
+        opacity: 0px;
+        background-repeat: no-repeat;
+    
+
+
+    }
+
+    .con-3 {
+        width: 300px;
+        height: 90px;
+        gap: 0px;
+        position: relative;
+        top: -5em;
+        left: 0;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #5E6282;
+
+    }
+    .bac-img {
+        position: relative;
+        width: 400px;
+        height: 650px;
+        top: -5em;
+        right: 11em;
+        gap: 0px;
+        opacity: 0px;
+    
+    }
+
+}
